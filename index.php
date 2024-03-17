@@ -112,7 +112,7 @@ if (isset ($_POST['simpan'])) { //untuk create
                         <?php echo $error ?>
                     </div>
                     <?php
-                    header("refresh:5;url=tittle.php");//5 : detik
+                    header("refresh:5;url=index.php");//5 : detik
                 }
                 ?>
                 <?php
@@ -122,7 +122,7 @@ if (isset ($_POST['simpan'])) { //untuk create
                         <?php echo $sukses ?>
                     </div>
                     <?php
-                    header("refresh:5;url=tittle.php");
+                    header("refresh:5;url=index.php");
                 }
                 ?>
                 <form action="" method="POST">
